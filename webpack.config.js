@@ -6,7 +6,7 @@ export default {
   },
   mode: "production",
   optimization: {
-    minimize: false,
+    minimize: true,
   },
   target: "node0.10",
   module: {
