@@ -1,0 +1,24 @@
+{
+  "name": "async-iterator-helpers-demo",
+  "version": "1.0.0",
+  "description": "A demonstration of Async Iterator Helpers using core-js polyfills + babel + webpack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaybotev/async-iterator-helpers-demo.git"
+  },
+  "author": "Nikolay Botev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolaybotev/async-iterator-helpers-demo/issues"
+  },
+  "homepage": "https://github.com/nikolaybotev/async-iterator-helpers-demo#readme",
+  "devDependencies": {
+    "core-js": "^3.38.1",
+    "streams": "^2.0.0"
+  }
+}
