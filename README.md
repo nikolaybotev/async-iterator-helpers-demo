@@ -23,3 +23,25 @@ gen()
   .batch(2)
   .forEach(n => console.log(n));
 ```
+
+## Testing
+
+Install
+
+```sh
+npm ci
+```
+
+Build
+
+```sh
+npx webpack
+```
+
+Run
+
+```sh
+❯ fnm use 0.10
+❯ node build/bundle.js
+[ 20, 40 ]
+```
