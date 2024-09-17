@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "clean": "rm -rf build/",
     "build": "webpack",
     "test": "node ./build/bundle.js"
   },
