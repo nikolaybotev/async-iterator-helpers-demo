@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A demonstration of Async Iterator Helpers using core-js polyfills + babel + webpack",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "clean": "rm -rf build/",
     "build": "webpack",

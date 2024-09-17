@@ -1,13 +1,13 @@
-import "./async-iterator-setup.js";
+require("./async-iterator-setup.js");
 
-import "core-js/actual/promise/index.js";
-import "core-js/actual/symbol/index.js";
-import "core-js/actual/async-iterator/drop.js";
-import "core-js/actual/async-iterator/take.js";
-import "core-js/actual/async-iterator/filter.js";
-import "core-js/actual/async-iterator/map.js";
+require("core-js/actual/promise/index.js");
+require("core-js/actual/symbol/index.js");
+require("core-js/actual/async-iterator/drop.js");
+require("core-js/actual/async-iterator/take.js");
+require("core-js/actual/async-iterator/filter.js");
+require("core-js/actual/async-iterator/map.js");
 
-import "streams/factories/async-iterator.js";
+require("streams/factories/async-iterator.js");
 
 async function* gen() {
   yield* [1, 2, 3, 4, 5];

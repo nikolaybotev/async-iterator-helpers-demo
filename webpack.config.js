@@ -1,8 +1,10 @@
-export default {
+const path = require("path");
+
+module.exports = {
   entry: "./index.js",
   output: {
     filename: "bundle.js",
-    path: new URL("build", import.meta.url).pathname,
+    path: path.resolve(__dirname, "build"),
   },
   mode: "production",
   optimization: {

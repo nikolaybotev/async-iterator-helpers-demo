@@ -1,4 +1,4 @@
-import "core-js/actual/object/set-prototype-of.js";
+require("core-js/actual/object/set-prototype-of.js");
 const asyncGeneratorInstancePrototype = Object.getPrototypeOf(async function*(){}());
 const AsyncGeneratorPrototype = Object.getPrototypeOf(asyncGeneratorInstancePrototype);
 let AsyncIteratorPrototype;
@@ -10,5 +10,5 @@ if (AsyncGeneratorPrototype === Object.prototype) {
 } else {
   AsyncIteratorPrototype = Object.getPrototypeOf(AsyncGeneratorPrototype);
 }
-import configurator from "core-js/configurator.js";
+configurator = require("core-js/configurator.js");
 configurator({ AsyncIteratorPrototype });
