@@ -7,6 +7,7 @@
   "scripts": {
     "clean": "rm -rf build/",
     "build": "webpack",
+    "analyze": "webpack -c webpack.analyzer.config.js",
     "test": "node ./build/bundle.js"
   },
   "repository": {

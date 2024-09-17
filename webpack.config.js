@@ -2,7 +2,7 @@ export default {
   entry: "./index.js",
   output: {
     filename: "bundle.js",
-    path: new URL('build', import.meta.url).pathname
+    path: new URL("build", import.meta.url).pathname,
   },
   mode: "production",
   optimization: {
@@ -24,13 +24,13 @@ export default {
         use: {
           loader: "babel-loader",
           options: {
-            sourceType: "script"
-          }
+            sourceType: "script",
+          },
         },
       },
     ],
   },
   stats: {
-    loggingDebug: ["babel-loader"]
+    loggingDebug: ["babel-loader"],
   },
 };

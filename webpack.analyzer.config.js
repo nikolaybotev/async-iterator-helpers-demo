@@ -1,9 +1,9 @@
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import baseConfig from "./webpack.config.js";
 
-module.exports = {
+export default {
   plugins: [
-    new BundleAnalyzerPlugin()
+    new BundleAnalyzerPlugin(),
   ],
-  ...baseConfig
+  ...baseConfig,
 }
